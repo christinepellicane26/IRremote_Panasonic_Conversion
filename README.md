@@ -38,9 +38,11 @@ I removed the "blink" sections from the sketch, since they're redundant- the Ard
 Once up-and-running, I could see that the Verizon Fios remote uses Panasonic hexadecimals. There's probably a better way to go about matching up the codes with the buttons, but I went through the tedious manual process of hitting each button, copying the hexadecimal, pasting with the prefix "0x" and adding a custom description for each. The result is an artisinal, hand-curated conversion list that translates each code into human language, including some handy emojis:
 
 VOL+
+VOL-
 
 CH+
 CH-
+
 FiOS TV
 POWER🔘STB
 POWER🔘TV
@@ -56,15 +58,19 @@ POWER🔘TV
 ☆
 ☆
 ☆
+
 Mute
 *
 *
 *
-A🔺
-A🔺
-A🔺
+
 A/V
 A/V
+A🔺
+A🔺
+A🔺
+
+
 C🔴
 C🔴
 C🔴
