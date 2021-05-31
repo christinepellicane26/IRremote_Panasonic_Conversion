@@ -9,7 +9,7 @@ The purpose is to use the existing TV remote to control a motor, but the remote 
 
 Pin Connections:
 
-*Arduino* 
+**Arduino** 
 
 Pin 2 to Signal on IR sensor
 
@@ -17,7 +17,7 @@ Pin 2 to Signal on IR sensor
 
 Ground to negative rail
 
-*IR Sensor*
+**IR Sensor**
 
 Signal to Pin 2
 
