@@ -9,14 +9,20 @@ The purpose is to use the existing TV remote to control a motor, but the remote 
 
 Pin Connections:
 
-Arduino 
+*Arduino* 
+
 Pin 2 to Signal on IR sensor
+
 3.3v to positive rail
+
 Ground to negative rail
 
-IR Sensor
+*IR Sensor*
+
 Signal to Pin 2
+
 Positive to positive rail
+
 Ground to negative rail
 
 Breadboard power supply connecting both pairs of rails
@@ -32,14 +38,16 @@ I removed the "blink" sections from the sketch, since they're redundant- the Ard
 Once up-and-running, I could see that the Verizon Fios remote uses Panasonic hexadecimals. There's probably a better way to go about matching up the codes with the buttons, but I went through the tedious manual process of hitting each button, copying the hexadecimal, pasting with the prefix "0x" and adding a custom description for each. The result is an artisinal, hand-curated conversion list that translates each code into human language, including some handy emojis:
 
 VOL+
-VOL+
+
 CH+
-CH+
+CH-
 FiOS TV
-FiOS TV
+POWER🔘STB
+POWER🔘TV
+
 ▶
 ▶
-▶
+
 ⏸
 ⏸
 ❤
